@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+#logo {
+  float: left;
+  color: white;
+  margin: 1rem 2rem;
+  font-size: 2.8rem;
+}
+header nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 1.4rem 6rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+header {
+  background-color: cornflowerblue;
+  overflow: hidden;
+}
+#cover-image {
+  background-image: url("pexels-pixabay-314703.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 50rem;
+}
+section h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding-top: 10rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+form {
+  width: 90rem;
+  margin: 4rem auto;
+  background: white;
+
+  text-align: center;
+}
+
+input,
+button {
+  display: block;
+  margin: 0 auto;
+}
+label {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+button {
+  background: cornflowerblue;
+  border: none;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+h3 {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
